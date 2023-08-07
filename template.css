@@ -1,0 +1,174 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0d1b2a;
+  color: white;
+}
+
+
+/* TABLE OF CONTENTS
+
+  1. header
+    1.1 left
+    1.2 right
+
+
+  2. MAIN
+    2.1 AMIRAL-1 [ specialist-(1,2,3) ]
+    2.2 AMIRAL-2
+
+
+  3. bizzare
+    3.1 DIO [ .mask-dio ]
+    4.1 JOJO [ .polnareff-jojo, .abdol-jojo ]
+
+*/
+
+
+/* header family */
+header {
+  display: flex;
+  background-color: #15616d;
+  height: 70px;
+  width: 100%;
+  border-radius: 40px;
+  margin-bottom: 30px;
+
+  justify-content: space-around;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+header .left {
+  background-color: #000814;
+  height: 45px;
+  width: 46%;
+  border-radius: 25px;
+}
+
+header .right {
+  background-color: #000814;
+  height: 45px;
+  width: 46%;
+  border-radius: 25px;
+}
+
+/* end of header family */
+
+
+
+
+/* main family */
+.MAIN {
+  display: flex;
+  background-color: #15616d;
+  height: 10cm;
+  width: 100%;
+  border-radius: 40px;
+  margin-bottom: 20px;
+
+  justify-content: space-around;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+.amiral-1 {
+  background-color: #000814;
+  height: 350px;
+  width: 46%;
+  border-radius: 40px;
+}
+
+amiral-1 .specialist-1 {
+  background-color: #240046;
+  border-radius: 40px;
+  height: 80px;
+  width: 90%;
+  margin: 10px 30px;
+}
+
+amiral-1 .specialist-2 {
+  background-color: #240046;
+  border-radius: 40px;
+  height: 165px;
+  width: 90%;
+  margin: 10px 30px;
+}
+
+amiral-1 .specialist-3 {
+  background-color: #240046;
+  border-radius: 40px;
+  height: 60px;
+  width: 90%;
+  margin: 10px 30px;
+}
+
+
+.amiral-2 {
+  background-color: #000814;
+  height: 350px;
+  width: 46%;
+  border-radius: 40px;
+}
+
+/* end of main family */
+
+
+
+/* bizzare family */
+.bizzare {
+  display: flex;
+  background-color: #15616d;
+  height: 6cm;
+  width: 100%;
+  border-radius: 40px;
+
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+.DIO {
+  background-color: #000814;
+  height: 200px;
+  width: 46%;
+  border-radius: 40px;
+  margin: 10px 30px;
+}
+
+.mask-dio {
+  background-color: #240046;
+  height: 160px;
+  width: 95.5%;
+  border-radius: 40px;
+  margin: 20px 15px;
+}
+
+
+.JOJO {
+  background-color: #000814;
+  height: 200px;
+  width: 46%;
+  border-radius: 40px;
+  margin: 10px 30px;
+}
+
+.polnareff-jojo {
+  background-color: #240046;
+  height: 70px;
+  width: 95.5%;
+  border-radius: 40px;
+  margin: 10px 15px;
+}
+
+.abdol-jojo {
+  background-color: #240046;
+  height: 100px;
+  width: 95.5%;
+  border-radius: 40px;
+  margin: 10px 15px;
+}
+
+/* end of bizzare family */
